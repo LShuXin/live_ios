@@ -18,7 +18,7 @@
 		F7F465B12A5966C000B11EDD /* live_iosUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F465B02A5966C000B11EDD /* live_iosUITestsLaunchTests.m */; };
 		F7F465BF2A59681000B11EDD /* VideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F465BE2A59681000B11EDD /* VideoPlayViewController.m */; };
 		F7F465C22A596FC000B11EDD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F465C12A596FC000B11EDD /* AVFoundation.framework */; };
-		F7F465C52A59769300B11EDD /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F7F465C42A59769300B11EDD /* test.mp4 */; };
+		F7F465CA2A59787600B11EDD /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F7F465C92A59787600B11EDD /* test.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,7 @@
 		F7F465BD2A59681000B11EDD /* VideoPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayViewController.h; sourceTree = "<group>"; };
 		F7F465BE2A59681000B11EDD /* VideoPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayViewController.m; sourceTree = "<group>"; };
 		F7F465C12A596FC000B11EDD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		F7F465C42A59769300B11EDD /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		F7F465C92A59787600B11EDD /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,6 @@
 		F7F4657C2A5966BF00B11EDD = {
 			isa = PBXGroup;
 			children = (
-				F7F465C42A59769300B11EDD /* test.mp4 */,
 				F7F465872A5966BF00B11EDD /* live_ios */,
 				F7F465A32A5966C000B11EDD /* live_iosTests */,
 				F7F465AD2A5966C000B11EDD /* live_iosUITests */,
@@ -111,6 +110,7 @@
 		F7F465872A5966BF00B11EDD /* live_ios */ = {
 			isa = PBXGroup;
 			children = (
+				F7F465C72A59780A00B11EDD /* Resources */,
 				F7F465882A5966BF00B11EDD /* AppDelegate.h */,
 				F7F465892A5966BF00B11EDD /* AppDelegate.m */,
 				F7F4658E2A5966BF00B11EDD /* ViewController.h */,
@@ -149,6 +149,22 @@
 				F7F465C12A596FC000B11EDD /* AVFoundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7F465C72A59780A00B11EDD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7F465C82A59781A00B11EDD /* video */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F7F465C82A59781A00B11EDD /* video */ = {
+			isa = PBXGroup;
+			children = (
+				F7F465C92A59787600B11EDD /* test.mp4 */,
+			);
+			path = video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +272,8 @@
 			files = (
 				F7F465982A5966C000B11EDD /* LaunchScreen.storyboard in Resources */,
 				F7F465952A5966C000B11EDD /* Assets.xcassets in Resources */,
-				F7F465C52A59769300B11EDD /* test.mp4 in Resources */,
 				F7F465932A5966BF00B11EDD /* Main.storyboard in Resources */,
+				F7F465CA2A59787600B11EDD /* test.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

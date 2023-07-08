@@ -5,8 +5,11 @@
 //  Created by smileflutter on 2023/7/8.
 //
 #import "VideoPlayViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface VideoPlayViewController ()
+@property (nonatomic, strong) AVPlayer *player;
+@property (nonatomic, strong) AVPlayerLayer *playerLayer;
 
 @end
 
@@ -14,7 +17,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the
+    
+    // 获取网络视频URL
+//    NSURL *remoteVideoURL = [NSURL URLWithString:@"https://www.cnuseful.com/testdown/video/test.mp4"];
+    NSURL *localVideoURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"test" ofType:@"mp4"]];
+    
+    // 获取视频文件的URL
+    
+    
+    // 创建AVPlayer对象
+    self.player = [AVPlayer playerWithURL:localVideoURL];
+    
+    // 创建 AVPlayer 对象，并将其添加到视图的层级结构中
+    self.playerLayer = [AVPlayerLayer playerLayerWithPlayer:self.player];
+    self.playerLayer.frame = self.view.bounds;
+    [self.view.layer addSublayer:self.playerLayer];
+    
+    // 开始播放
+    [self.player play];
 }
 
 /*

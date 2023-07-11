@@ -20,24 +20,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // 方法1:
-    // 可以成功修改状态栏
-    // Info.plist 中 View controller-based status bar appearance 要设置为NO， 否则只能使用 Info.plist 来设置
-     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
     
-    // 方法2：（修改失败）
-    // 与下面的 preferredStatusBarStyle 结合使用
-    // [self setNeedsStatusBarAppearanceUpdate];
+    // 设置状态栏
+    [self configStatusBar];
+    
+    // 设置导航栏
+    [self configNavigatonbar];
+    
     
     // Do any additional setup after loading the view.
-    [self.view setBackgroundColor:[UIColor whiteColor]];
+    [self.view setBackgroundColor:[UIColor grayColor]];
     [self.view addSubview:self.videoPalybutton];
     [self.view addSubview:self.simpleImageButton];
     
 }
 
 - (void)viewWillAppear:(BOOL)animated {
-    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
+    [self configStatusBar];
+    [self.navigationController setNavigationBarHidden:NO animated:animated];
 }
 
 
@@ -81,7 +81,34 @@
     [self.navigationController pushViewController:simpleImageVC animated:YES];
 }
 
-// 与上面的setNeedsStatusBarAppearanceUpdate 结合使用（修改失败）
+- (void)handleRightNavBtnClick {
+    
+}
+
+- (void)configNavigatonbar {
+    self.navigationItem.title = @"Note";
+    
+    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Button" style:UIBarButtonItemStylePlain target:self action:@selector(handleRightNavBtnClick)];
+    self.navigationItem.rightBarButtonItem = rightButton;
+    
+    UINavigationBar *navigationBar = self.navigationController.navigationBar;
+    navigationBar.barTintColor = [UIColor blueColor];
+    navigationBar.tintColor = [UIColor whiteColor];
+    navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
+}
+
+
+- (void)configStatusBar {
+    // 方法1:
+    // 可以成功修改状态栏
+    // Info.plist 中 View controller-based status bar appearance 要设置为NO， 否则只能使用 Info.plist 来设置
+     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
+    
+    // 方法2：（修改失败）
+    // 与下面的 preferredStatusBarStyle 结合使用
+    // [self setNeedsStatusBarAppearanceUpdate];
+}
+// 与 configStatusBar 中方法2结合使用（修改失败）
 //- (UIStatusBarStyle)preferredStatusBarStyle {
 //    return UIStatusBarStyleLightContent;
 //}

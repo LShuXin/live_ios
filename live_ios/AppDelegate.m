@@ -84,7 +84,9 @@
     [tabBarVC addChildViewController:imVC];
     [tabBarVC addChildViewController:videoVC];
     [tabBarVC addChildViewController:fileVC];
-    
+    // 默认选中第3个
+    [tabBarVC setSelectedIndex:2];
+
     
 
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController: tabBarVC];

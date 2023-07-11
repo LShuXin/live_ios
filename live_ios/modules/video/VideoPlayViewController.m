@@ -17,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor yellowColor]];
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     // Do any additional setup after loading the
     
     // 获取网络视频URL

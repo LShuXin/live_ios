@@ -5,25 +5,39 @@
 //  Created by smileflutter on 2023/7/8.
 //
 
-#import "ViewController.h"
+#import "NoteViewController.h"
 #import "VideoPlayViewController.h"
 #import "SimpleImageViewController.h"
 
-@interface ViewController ()
+@interface NoteViewController ()
 @property (strong, nonatomic) UIButton *videoPalyButton;
 @property (strong, nonatomic) UIButton *simpleImageButton;
 
 @end
 
-@implementation ViewController
+@implementation NoteViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // 方法1:
+    // 可以成功修改状态栏
+    // Info.plist 中 View controller-based status bar appearance 要设置为NO， 否则只能使用 Info.plist 来设置
+     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
+    
+    // 方法2：（修改失败）
+    // 与下面的 preferredStatusBarStyle 结合使用
+    // [self setNeedsStatusBarAppearanceUpdate];
+    
     // Do any additional setup after loading the view.
     [self.view setBackgroundColor:[UIColor whiteColor]];
     [self.view addSubview:self.videoPalybutton];
     [self.view addSubview:self.simpleImageButton];
     
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
 }
 
 
@@ -66,5 +80,10 @@
     NSLog(@"跳转到简单图片页面");
     [self.navigationController pushViewController:simpleImageVC animated:YES];
 }
+
+// 与上面的setNeedsStatusBarAppearanceUpdate 结合使用（修改失败）
+//- (UIStatusBarStyle)preferredStatusBarStyle {
+//    return UIStatusBarStyleLightContent;
+//}
 
 @end

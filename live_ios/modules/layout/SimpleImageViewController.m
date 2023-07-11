@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
     // 创建UIImageView对象，并设置其位置和大小

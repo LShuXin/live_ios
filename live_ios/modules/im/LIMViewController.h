@@ -1,5 +1,5 @@
 //
-//  LayoutViewController.h
+//  IMViewController.h
 //  live_ios
 //
 //  Created by smileflutter on 2023/7/11.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LayoutViewController : UIViewController
+@interface LIMViewController : UIViewController
 
 @end
 

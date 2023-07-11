@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F778BBD72A5D52CE006E3DD7 /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BBD62A5D52CE006E3DD7 /* FileViewController.m */; };
-		F778BBDA2A5D530D006E3DD7 /* IMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BBD92A5D530D006E3DD7 /* IMViewController.m */; };
-		F778BBDD2A5D5323006E3DD7 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BBDC2A5D5323006E3DD7 /* GameViewController.m */; };
-		F778BBE02A5D538A006E3DD7 /* LayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BBDF2A5D538A006E3DD7 /* LayoutViewController.m */; };
+		F778BBD72A5D52CE006E3DD7 /* LFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BBD62A5D52CE006E3DD7 /* LFileViewController.m */; };
+		F778BBDA2A5D530D006E3DD7 /* LIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BBD92A5D530D006E3DD7 /* LIMViewController.m */; };
+		F778BBDD2A5D5323006E3DD7 /* LGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BBDC2A5D5323006E3DD7 /* LGameViewController.m */; };
+		F778BBE02A5D538A006E3DD7 /* LLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BBDF2A5D538A006E3DD7 /* LLayoutViewController.m */; };
 		F778BC112A5D620E006E3DD7 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F778BC052A5D620E006E3DD7 /* 2.jpg */; };
 		F778BC122A5D620E006E3DD7 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F778BC062A5D620E006E3DD7 /* 7.jpg */; };
 		F778BC132A5D620E006E3DD7 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F778BC072A5D620E006E3DD7 /* 3.jpg */; };
@@ -35,8 +35,9 @@
 		F778BC622A5D6710006E3DD7 /* ic_game_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = F778BC562A5D6710006E3DD7 /* ic_game_unselected.png */; };
 		F778BC632A5D6710006E3DD7 /* ic_game_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F778BC572A5D6710006E3DD7 /* ic_game_selected.png */; };
 		F778BC642A5D6710006E3DD7 /* ic_im_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = F778BC582A5D6710006E3DD7 /* ic_im_unselected.png */; };
+		F778BC682A5D7A0F006E3DD7 /* LContact.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BC672A5D7A0F006E3DD7 /* LContact.m */; };
 		F7F4658A2A5966BF00B11EDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F465892A5966BF00B11EDD /* AppDelegate.m */; };
-		F7F465902A5966BF00B11EDD /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F4658F2A5966BF00B11EDD /* NoteViewController.m */; };
+		F7F465902A5966BF00B11EDD /* LNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F4658F2A5966BF00B11EDD /* LNoteViewController.m */; };
 		F7F465932A5966BF00B11EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F465912A5966BF00B11EDD /* Main.storyboard */; };
 		F7F465952A5966C000B11EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F465942A5966C000B11EDD /* Assets.xcassets */; };
 		F7F465982A5966C000B11EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F465962A5966C000B11EDD /* LaunchScreen.storyboard */; };
@@ -44,10 +45,10 @@
 		F7F465A52A5966C000B11EDD /* live_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F465A42A5966C000B11EDD /* live_iosTests.m */; };
 		F7F465AF2A5966C000B11EDD /* live_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F465AE2A5966C000B11EDD /* live_iosUITests.m */; };
 		F7F465B12A5966C000B11EDD /* live_iosUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F465B02A5966C000B11EDD /* live_iosUITestsLaunchTests.m */; };
-		F7F465BF2A59681000B11EDD /* VideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F465BE2A59681000B11EDD /* VideoPlayViewController.m */; };
+		F7F465BF2A59681000B11EDD /* LVideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F465BE2A59681000B11EDD /* LVideoPlayViewController.m */; };
 		F7F465C22A596FC000B11EDD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F465C12A596FC000B11EDD /* AVFoundation.framework */; };
 		F7F465CA2A59787600B11EDD /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F7F465C92A59787600B11EDD /* test.mp4 */; };
-		F7F465E62A59798D00B11EDD /* SimpleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F465E52A59798D00B11EDD /* SimpleImageViewController.m */; };
+		F7F465E62A59798D00B11EDD /* LSimpleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F465E52A59798D00B11EDD /* LSimpleImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,14 +69,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F778BBD52A5D52CE006E3DD7 /* FileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
-		F778BBD62A5D52CE006E3DD7 /* FileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
-		F778BBD82A5D530D006E3DD7 /* IMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMViewController.h; sourceTree = "<group>"; };
-		F778BBD92A5D530D006E3DD7 /* IMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMViewController.m; sourceTree = "<group>"; };
-		F778BBDB2A5D5323006E3DD7 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		F778BBDC2A5D5323006E3DD7 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		F778BBDE2A5D538A006E3DD7 /* LayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayoutViewController.h; sourceTree = "<group>"; };
-		F778BBDF2A5D538A006E3DD7 /* LayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayoutViewController.m; sourceTree = "<group>"; };
+		F778BBD52A5D52CE006E3DD7 /* LFileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFileViewController.h; sourceTree = "<group>"; };
+		F778BBD62A5D52CE006E3DD7 /* LFileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFileViewController.m; sourceTree = "<group>"; };
+		F778BBD82A5D530D006E3DD7 /* LIMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIMViewController.h; sourceTree = "<group>"; };
+		F778BBD92A5D530D006E3DD7 /* LIMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIMViewController.m; sourceTree = "<group>"; };
+		F778BBDB2A5D5323006E3DD7 /* LGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGameViewController.h; sourceTree = "<group>"; };
+		F778BBDC2A5D5323006E3DD7 /* LGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGameViewController.m; sourceTree = "<group>"; };
+		F778BBDE2A5D538A006E3DD7 /* LLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLayoutViewController.h; sourceTree = "<group>"; };
+		F778BBDF2A5D538A006E3DD7 /* LLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLayoutViewController.m; sourceTree = "<group>"; };
 		F778BC052A5D620E006E3DD7 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		F778BC062A5D620E006E3DD7 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
 		F778BC072A5D620E006E3DD7 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
@@ -100,11 +101,13 @@
 		F778BC562A5D6710006E3DD7 /* ic_game_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_game_unselected.png; sourceTree = "<group>"; };
 		F778BC572A5D6710006E3DD7 /* ic_game_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_game_selected.png; sourceTree = "<group>"; };
 		F778BC582A5D6710006E3DD7 /* ic_im_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_im_unselected.png; sourceTree = "<group>"; };
+		F778BC662A5D7A0F006E3DD7 /* LContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LContact.h; sourceTree = "<group>"; };
+		F778BC672A5D7A0F006E3DD7 /* LContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LContact.m; sourceTree = "<group>"; };
 		F7F465852A5966BF00B11EDD /* live_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = live_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F465882A5966BF00B11EDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7F465892A5966BF00B11EDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F7F4658E2A5966BF00B11EDD /* NoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
-		F7F4658F2A5966BF00B11EDD /* NoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		F7F4658E2A5966BF00B11EDD /* LNoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNoteViewController.h; sourceTree = "<group>"; };
+		F7F4658F2A5966BF00B11EDD /* LNoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNoteViewController.m; sourceTree = "<group>"; };
 		F7F465922A5966BF00B11EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7F465942A5966C000B11EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7F465972A5966C000B11EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -115,12 +118,12 @@
 		F7F465AA2A5966C000B11EDD /* live_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = live_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F465AE2A5966C000B11EDD /* live_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = live_iosUITests.m; sourceTree = "<group>"; };
 		F7F465B02A5966C000B11EDD /* live_iosUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = live_iosUITestsLaunchTests.m; sourceTree = "<group>"; };
-		F7F465BD2A59681000B11EDD /* VideoPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayViewController.h; sourceTree = "<group>"; };
-		F7F465BE2A59681000B11EDD /* VideoPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayViewController.m; sourceTree = "<group>"; };
+		F7F465BD2A59681000B11EDD /* LVideoPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVideoPlayViewController.h; sourceTree = "<group>"; };
+		F7F465BE2A59681000B11EDD /* LVideoPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVideoPlayViewController.m; sourceTree = "<group>"; };
 		F7F465C12A596FC000B11EDD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F7F465C92A59787600B11EDD /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
-		F7F465E42A59798D00B11EDD /* SimpleImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleImageViewController.h; sourceTree = "<group>"; };
-		F7F465E52A59798D00B11EDD /* SimpleImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleImageViewController.m; sourceTree = "<group>"; };
+		F7F465E42A59798D00B11EDD /* LSimpleImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSimpleImageViewController.h; sourceTree = "<group>"; };
+		F7F465E52A59798D00B11EDD /* LSimpleImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSimpleImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,8 +155,8 @@
 		F778BBCF2A5D5255006E3DD7 /* note */ = {
 			isa = PBXGroup;
 			children = (
-				F7F4658F2A5966BF00B11EDD /* NoteViewController.m */,
-				F7F4658E2A5966BF00B11EDD /* NoteViewController.h */,
+				F7F4658F2A5966BF00B11EDD /* LNoteViewController.m */,
+				F7F4658E2A5966BF00B11EDD /* LNoteViewController.h */,
 			);
 			path = note;
 			sourceTree = "<group>";
@@ -161,8 +164,8 @@
 		F778BBD02A5D5260006E3DD7 /* game */ = {
 			isa = PBXGroup;
 			children = (
-				F778BBDB2A5D5323006E3DD7 /* GameViewController.h */,
-				F778BBDC2A5D5323006E3DD7 /* GameViewController.m */,
+				F778BBDB2A5D5323006E3DD7 /* LGameViewController.h */,
+				F778BBDC2A5D5323006E3DD7 /* LGameViewController.m */,
 			);
 			path = game;
 			sourceTree = "<group>";
@@ -170,10 +173,11 @@
 		F778BBD12A5D526C006E3DD7 /* layout */ = {
 			isa = PBXGroup;
 			children = (
-				F7F465E42A59798D00B11EDD /* SimpleImageViewController.h */,
-				F7F465E52A59798D00B11EDD /* SimpleImageViewController.m */,
-				F778BBDE2A5D538A006E3DD7 /* LayoutViewController.h */,
-				F778BBDF2A5D538A006E3DD7 /* LayoutViewController.m */,
+				F778BC652A5D7775006E3DD7 /* contact */,
+				F7F465E42A59798D00B11EDD /* LSimpleImageViewController.h */,
+				F7F465E52A59798D00B11EDD /* LSimpleImageViewController.m */,
+				F778BBDE2A5D538A006E3DD7 /* LLayoutViewController.h */,
+				F778BBDF2A5D538A006E3DD7 /* LLayoutViewController.m */,
 			);
 			path = layout;
 			sourceTree = "<group>";
@@ -181,8 +185,8 @@
 		F778BBD22A5D527D006E3DD7 /* im */ = {
 			isa = PBXGroup;
 			children = (
-				F778BBD82A5D530D006E3DD7 /* IMViewController.h */,
-				F778BBD92A5D530D006E3DD7 /* IMViewController.m */,
+				F778BBD82A5D530D006E3DD7 /* LIMViewController.h */,
+				F778BBD92A5D530D006E3DD7 /* LIMViewController.m */,
 			);
 			path = im;
 			sourceTree = "<group>";
@@ -190,8 +194,8 @@
 		F778BBD32A5D52A2006E3DD7 /* video */ = {
 			isa = PBXGroup;
 			children = (
-				F7F465BE2A59681000B11EDD /* VideoPlayViewController.m */,
-				F7F465BD2A59681000B11EDD /* VideoPlayViewController.h */,
+				F7F465BE2A59681000B11EDD /* LVideoPlayViewController.m */,
+				F7F465BD2A59681000B11EDD /* LVideoPlayViewController.h */,
 			);
 			path = video;
 			sourceTree = "<group>";
@@ -199,10 +203,19 @@
 		F778BBD42A5D52AF006E3DD7 /* file */ = {
 			isa = PBXGroup;
 			children = (
-				F778BBD52A5D52CE006E3DD7 /* FileViewController.h */,
-				F778BBD62A5D52CE006E3DD7 /* FileViewController.m */,
+				F778BBD52A5D52CE006E3DD7 /* LFileViewController.h */,
+				F778BBD62A5D52CE006E3DD7 /* LFileViewController.m */,
 			);
 			path = file;
+			sourceTree = "<group>";
+		};
+		F778BC652A5D7775006E3DD7 /* contact */ = {
+			isa = PBXGroup;
+			children = (
+				F778BC662A5D7A0F006E3DD7 /* LContact.h */,
+				F778BC672A5D7A0F006E3DD7 /* LContact.m */,
+			);
+			path = contact;
 			sourceTree = "<group>";
 		};
 		F7F4657C2A5966BF00B11EDD = {
@@ -483,15 +496,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F778BBDD2A5D5323006E3DD7 /* GameViewController.m in Sources */,
-				F778BBD72A5D52CE006E3DD7 /* FileViewController.m in Sources */,
-				F7F465E62A59798D00B11EDD /* SimpleImageViewController.m in Sources */,
-				F7F465902A5966BF00B11EDD /* NoteViewController.m in Sources */,
+				F778BBDD2A5D5323006E3DD7 /* LGameViewController.m in Sources */,
+				F778BBD72A5D52CE006E3DD7 /* LFileViewController.m in Sources */,
+				F7F465E62A59798D00B11EDD /* LSimpleImageViewController.m in Sources */,
+				F7F465902A5966BF00B11EDD /* LNoteViewController.m in Sources */,
 				F7F4658A2A5966BF00B11EDD /* AppDelegate.m in Sources */,
-				F7F465BF2A59681000B11EDD /* VideoPlayViewController.m in Sources */,
-				F778BBDA2A5D530D006E3DD7 /* IMViewController.m in Sources */,
+				F778BC682A5D7A0F006E3DD7 /* LContact.m in Sources */,
+				F7F465BF2A59681000B11EDD /* LVideoPlayViewController.m in Sources */,
+				F778BBDA2A5D530D006E3DD7 /* LIMViewController.m in Sources */,
 				F7F4659B2A5966C000B11EDD /* main.m in Sources */,
-				F778BBE02A5D538A006E3DD7 /* LayoutViewController.m in Sources */,
+				F778BBE02A5D538A006E3DD7 /* LLayoutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

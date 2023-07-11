@@ -1,21 +1,21 @@
 //
-//  GameViewController.m
+//  FileViewController.m
 //  live_ios
 //
 //  Created by smileflutter on 2023/7/11.
 //
 
-#import "GameViewController.h"
+#import "LFileViewController.h"
 
-@interface GameViewController ()
+@interface LFileViewController ()
 
 @end
 
-@implementation GameViewController
+@implementation LFileViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.view setBackgroundColor: [UIColor whiteColor]];
+    [self.view setBackgroundColor:[UIColor purpleColor]];
     // Do any additional setup after loading the view.
 }
 

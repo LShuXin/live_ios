@@ -1,21 +1,21 @@
 //
-//  IMViewController.m
+//  LayoutViewController.m
 //  live_ios
 //
 //  Created by smileflutter on 2023/7/11.
 //
 
-#import "IMViewController.h"
+#import "LLayoutViewController.h"
 
-@interface IMViewController ()
+@interface LLayoutViewController ()
 
 @end
 
-@implementation IMViewController
+@implementation LLayoutViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.view setBackgroundColor:[UIColor orangeColor]];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
     // Do any additional setup after loading the view.
 }
 

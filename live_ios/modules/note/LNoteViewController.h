@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NoteViewController : UIViewController
+@interface LNoteViewController : UIViewController
 
 
 @end

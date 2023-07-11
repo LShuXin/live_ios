@@ -1,5 +1,5 @@
 //
-//  IMViewController.h
+//  GameViewController.h
 //  live_ios
 //
 //  Created by smileflutter on 2023/7/11.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface IMViewController : UIViewController
+@interface LGameViewController : UIViewController
 
 @end
 

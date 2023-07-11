@@ -1,21 +1,21 @@
 //
-//  LayoutViewController.m
+//  GameViewController.m
 //  live_ios
 //
 //  Created by smileflutter on 2023/7/11.
 //
 
-#import "LayoutViewController.h"
+#import "LGameViewController.h"
 
-@interface LayoutViewController ()
+@interface LGameViewController ()
 
 @end
 
-@implementation LayoutViewController
+@implementation LGameViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.view setBackgroundColor:[UIColor whiteColor]];
+    [self.view setBackgroundColor: [UIColor whiteColor]];
     // Do any additional setup after loading the view.
 }
 

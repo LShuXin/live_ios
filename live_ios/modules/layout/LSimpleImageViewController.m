@@ -6,14 +6,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SimpleImageViewController.h"
+#import "LSimpleImageViewController.h"
 
-@interface SimpleImageViewController ()
+@interface LSimpleImageViewController ()
 @property (nonatomic, strong) UIImageView *imageView;
 
 @end
 
-@implementation SimpleImageViewController
+@implementation LSimpleImageViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

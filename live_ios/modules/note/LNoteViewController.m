@@ -5,17 +5,17 @@
 //  Created by smileflutter on 2023/7/8.
 //
 
-#import "NoteViewController.h"
-#import "VideoPlayViewController.h"
-#import "SimpleImageViewController.h"
+#import "LNoteViewController.h"
+#import "LVideoPlayViewController.h"
+#import "LSimpleImageViewController.h"
 
-@interface NoteViewController ()
+@interface LNoteViewController ()
 @property (strong, nonatomic) UIButton *videoPalyButton;
 @property (strong, nonatomic) UIButton *simpleImageButton;
 
 @end
 
-@implementation NoteViewController
+@implementation LNoteViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -70,13 +70,13 @@
 }
 
 -(void)goToVideoPlayVC:(UIButton *) sender {
-    VideoPlayViewController *videoPlayVC = [[VideoPlayViewController alloc] init];
+    LVideoPlayViewController *videoPlayVC = [[LVideoPlayViewController alloc] init];
     NSLog(@"跳转到视频播放页面");
     [self.navigationController pushViewController:videoPlayVC animated:YES];
 }
 
 -(void)goToSimpleImageVC:(UIButton *) sender {
-    SimpleImageViewController * simpleImageVC = [[SimpleImageViewController alloc] init];
+    LSimpleImageViewController * simpleImageVC = [[LSimpleImageViewController alloc] init];
     NSLog(@"跳转到简单图片页面");
     [self.navigationController pushViewController:simpleImageVC animated:YES];
 }

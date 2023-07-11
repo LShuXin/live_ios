@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SimpleImageViewController : UIViewController
+@interface LSimpleImageViewController : UIViewController
 
 @end
 

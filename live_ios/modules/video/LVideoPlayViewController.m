@@ -4,16 +4,16 @@
 //
 //  Created by smileflutter on 2023/7/8.
 //
-#import "VideoPlayViewController.h"
+#import "LVideoPlayViewController.h"
 #import <AVFoundation/AVFoundation.h>
 
-@interface VideoPlayViewController ()
+@interface LVideoPlayViewController ()
 @property (nonatomic, strong) AVPlayer *player;
 @property (nonatomic, strong) AVPlayerLayer *playerLayer;
 
 @end
 
-@implementation VideoPlayViewController
+@implementation LVideoPlayViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

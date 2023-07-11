@@ -6,12 +6,12 @@
 //
 
 #import "AppDelegate.h"
-#import "NoteViewController.h"
-#import "GameViewController.h"
-#import "LayoutViewController.h"
-#import "IMViewController.h"
-#import "VideoPlayViewController.h"
-#import "FileViewController.h"
+#import "LNoteViewController.h"
+#import "LGameViewController.h"
+#import "LLayoutViewController.h"
+#import "LIMViewController.h"
+#import "LVideoPlayViewController.h"
+#import "LFileViewController.h"
 
 @interface AppDelegate ()
 
@@ -50,27 +50,27 @@
 
 - (UINavigationController*)configTabBarAndNavigationBar {
     // 构造子控制器
-    UIViewController *noteVC = [[NoteViewController alloc] init];
+    UIViewController *noteVC = [[LNoteViewController alloc] init];
     noteVC.tabBarItem.title = @"Note";
     noteVC.tabBarItem.image = [UIImage imageNamed:@"ic_note_unselected"];
     noteVC.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_note_selected"];
-    UIViewController *gameVC = [[GameViewController alloc] init];
+    UIViewController *gameVC = [[LGameViewController alloc] init];
     gameVC.tabBarItem.title = @"Game";
     gameVC.tabBarItem.image = [UIImage imageNamed:@"ic_game_unselected"];
     gameVC.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_game_selected"];
-    UIViewController *layoutVC = [[LayoutViewController alloc] init];
+    UIViewController *layoutVC = [[LLayoutViewController alloc] init];
     layoutVC.tabBarItem.title = @"Layout";
     layoutVC.tabBarItem.image = [UIImage imageNamed:@"ic_layout_unselected"];
     layoutVC.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_layout_selected"];
-    UIViewController *imVC = [[IMViewController alloc] init];
+    UIViewController *imVC = [[LIMViewController alloc] init];
     imVC.tabBarItem.title = @"IM";
     imVC.tabBarItem.image = [UIImage imageNamed:@"ic_im_unselected"];
     imVC.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_im_selected"];
-    UIViewController *videoVC = [[VideoPlayViewController alloc] init];
+    UIViewController *videoVC = [[LVideoPlayViewController alloc] init];
     videoVC.tabBarItem.title = @"Video";
     videoVC.tabBarItem.image = [UIImage imageNamed:@"ic_video_unselected"];
     videoVC.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_video_selected"];
-    UIViewController *fileVC = [[FileViewController alloc] init];
+    UIViewController *fileVC = [[LFileViewController alloc] init];
     fileVC.tabBarItem.title = @"File";
     fileVC.tabBarItem.image = [UIImage imageNamed:@"ic_file_unselected"];
     fileVC.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_file_selected"];

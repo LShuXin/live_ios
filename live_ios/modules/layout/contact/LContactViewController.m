@@ -130,6 +130,68 @@
     return indexes;
 }
 
+#pragma mark 设置分组标题内容高度
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    if (0 == section) {
+        return 50;
+    }
+    return 40;
+}
+
+#pragma mark 设置每行高度，每行高度可以不一样
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 45;
+}
+
+#pragma mark 设置尾部说明部分高度
+-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
+    return 40;
+}
+
+#pragma mark 点击行
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    _selectedIndexPath = indexPath;
+    LContactGroup *group = _contacts[indexPath.section];
+    LContact *contact = group.contacts[indexPath.row];
+    
+    // 创建弹出窗口
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"System Info" message:[contact getName] delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Ok", nil];
+    // 设置窗口内容样式
+    alert.alertViewStyle = UIAlertViewStylePlainTextInput;
+    // 取得文本框
+    UITextField *textField = [alert textFieldAtIndex:0];
+    // 设置文本框内容
+    textField.text = contact.phoneNumber;
+    // 显示窗口
+    [alert show];
+}
+
+#pragma mark 窗口的代理方法，用户保存数据
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    // 当点击了第二个按钮
+    if (buttonIndex == 1) {
+        UITextField *textField = [alertView textFieldAtIndex:0];
+        // 修改模型数据
+        LContactGroup *group = _contacts[_selectedIndexPath.section];
+        LContact *contact = group.contacts[_selectedIndexPath.row];
+        contact.phoneNumber = textField.text;
+        
+        // 刷新表格
+        // [_tableView reloadData];
+        
+        // 刷新表格
+        // 需要局部刷新的单元格的组、行
+        NSArray *indexPaths = @[_selectedIndexPath];
+        // 后面的参数代表更新时的动画
+        [_tableView reloadRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationLeft];
+    }
+}
+
+#pragma mark 重写状态栏样式方法
+-(UIStatusBarStyle)preferredStatueBarStyle {
+    return UIStatusBarStyleLightContent;
+}
+
 /*
 #pragma mark - Navigation
 

@@ -6,6 +6,7 @@
 //
 
 #import "LLayoutViewController.h"
+#import "LContactViewController.h"
 
 @interface LLayoutViewController ()
 

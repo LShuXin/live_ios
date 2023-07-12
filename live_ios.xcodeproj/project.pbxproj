@@ -36,6 +36,8 @@
 		F778BC632A5D6710006E3DD7 /* ic_game_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F778BC572A5D6710006E3DD7 /* ic_game_selected.png */; };
 		F778BC642A5D6710006E3DD7 /* ic_im_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = F778BC582A5D6710006E3DD7 /* ic_im_unselected.png */; };
 		F778BC682A5D7A0F006E3DD7 /* LContact.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BC672A5D7A0F006E3DD7 /* LContact.m */; };
+		F778BC6B2A5D7D29006E3DD7 /* LContactGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BC6A2A5D7D29006E3DD7 /* LContactGroup.m */; };
+		F778BC6E2A5D803F006E3DD7 /* LContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BC6D2A5D803F006E3DD7 /* LContactViewController.m */; };
 		F7F4658A2A5966BF00B11EDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F465892A5966BF00B11EDD /* AppDelegate.m */; };
 		F7F465902A5966BF00B11EDD /* LNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F4658F2A5966BF00B11EDD /* LNoteViewController.m */; };
 		F7F465932A5966BF00B11EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F465912A5966BF00B11EDD /* Main.storyboard */; };
@@ -103,6 +105,10 @@
 		F778BC582A5D6710006E3DD7 /* ic_im_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_im_unselected.png; sourceTree = "<group>"; };
 		F778BC662A5D7A0F006E3DD7 /* LContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LContact.h; sourceTree = "<group>"; };
 		F778BC672A5D7A0F006E3DD7 /* LContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LContact.m; sourceTree = "<group>"; };
+		F778BC692A5D7D29006E3DD7 /* LContactGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LContactGroup.h; sourceTree = "<group>"; };
+		F778BC6A2A5D7D29006E3DD7 /* LContactGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LContactGroup.m; sourceTree = "<group>"; };
+		F778BC6C2A5D803F006E3DD7 /* LContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LContactViewController.h; sourceTree = "<group>"; };
+		F778BC6D2A5D803F006E3DD7 /* LContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LContactViewController.m; sourceTree = "<group>"; };
 		F7F465852A5966BF00B11EDD /* live_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = live_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F465882A5966BF00B11EDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7F465892A5966BF00B11EDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -214,6 +220,10 @@
 			children = (
 				F778BC662A5D7A0F006E3DD7 /* LContact.h */,
 				F778BC672A5D7A0F006E3DD7 /* LContact.m */,
+				F778BC692A5D7D29006E3DD7 /* LContactGroup.h */,
+				F778BC6A2A5D7D29006E3DD7 /* LContactGroup.m */,
+				F778BC6C2A5D803F006E3DD7 /* LContactViewController.h */,
+				F778BC6D2A5D803F006E3DD7 /* LContactViewController.m */,
 			);
 			path = contact;
 			sourceTree = "<group>";
@@ -498,6 +508,7 @@
 			files = (
 				F778BBDD2A5D5323006E3DD7 /* LGameViewController.m in Sources */,
 				F778BBD72A5D52CE006E3DD7 /* LFileViewController.m in Sources */,
+				F778BC6B2A5D7D29006E3DD7 /* LContactGroup.m in Sources */,
 				F7F465E62A59798D00B11EDD /* LSimpleImageViewController.m in Sources */,
 				F7F465902A5966BF00B11EDD /* LNoteViewController.m in Sources */,
 				F7F4658A2A5966BF00B11EDD /* AppDelegate.m in Sources */,
@@ -505,6 +516,7 @@
 				F7F465BF2A59681000B11EDD /* LVideoPlayViewController.m in Sources */,
 				F778BBDA2A5D530D006E3DD7 /* LIMViewController.m in Sources */,
 				F7F4659B2A5966C000B11EDD /* main.m in Sources */,
+				F778BC6E2A5D803F006E3DD7 /* LContactViewController.m in Sources */,
 				F778BBE02A5D538A006E3DD7 /* LLayoutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

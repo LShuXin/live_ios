@@ -112,6 +112,7 @@
     }
     cell.textLabel.text = [contact getName];
     cell.detailTextLabel.text = contact.phoneNumber;
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     NSLog(@"cell: %@", cell);
     
     return cell;

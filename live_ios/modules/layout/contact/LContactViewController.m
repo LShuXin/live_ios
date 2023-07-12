@@ -119,7 +119,16 @@
     return group.detail;
 }
 
-
+#pragma mark 返回每组标题索引
+-(NSArray*)sectionIndexTitlesForTableView:(UITableView*)tableView {
+    NSLog(@"生成索引");
+    NSMutableArray *indexes = [[NSMutableArray alloc] init];
+    for (LContactGroup *group in _contacts) {
+        [indexes addObject:group.name];
+    }
+    
+    return indexes;
+}
 
 /*
 #pragma mark - Navigation

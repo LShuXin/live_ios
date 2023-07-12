@@ -98,9 +98,21 @@
     LContactGroup *group = _contacts[indexPath.section];
     LContact *contact = group.contacts[indexPath.row];
     
-    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
+    // UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
+    // cell.textLabel.text = [contact getName];
+    // cell.detailTextLabel.text = contact.phoneNumber;
+    
+    // 由于此方法调用十分频繁，cell的标识声明成静态变量有利于性能优化
+    static NSString *cellIdentifier = @"UITableViewCellIdentifierKey1";
+    // 首先根据标识符去缓存池取
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    // 如果缓存池中没有则重新创建并放到缓存池中
+    if (!cell) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellIdentifier];
+    }
     cell.textLabel.text = [contact getName];
     cell.detailTextLabel.text = contact.phoneNumber;
+    NSLog(@"cell: %@", cell);
     
     return cell;
 }

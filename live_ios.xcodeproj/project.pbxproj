@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7256BFF2A5F85AD000CE7C6 /* LExampleListGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7256BFE2A5F85AD000CE7C6 /* LExampleListGroupItem.m */; };
+		F7256C022A5F85BC000CE7C6 /* LExampleListGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F7256C012A5F85BC000CE7C6 /* LExampleListGroup.m */; };
+		F7256C062A5F8807000CE7C6 /* LRouterTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F7256C052A5F8807000CE7C6 /* LRouterTable.m */; };
+		F7256C092A5F8824000CE7C6 /* LRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7256C082A5F8824000CE7C6 /* LRouterManager.m */; };
 		F778BBD72A5D52CE006E3DD7 /* LFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BBD62A5D52CE006E3DD7 /* LFileViewController.m */; };
 		F778BBDA2A5D530D006E3DD7 /* LIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BBD92A5D530D006E3DD7 /* LIMViewController.m */; };
 		F778BBDD2A5D5323006E3DD7 /* LGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BBDC2A5D5323006E3DD7 /* LGameViewController.m */; };
@@ -38,6 +42,8 @@
 		F778BC682A5D7A0F006E3DD7 /* LContact.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BC672A5D7A0F006E3DD7 /* LContact.m */; };
 		F778BC6B2A5D7D29006E3DD7 /* LContactGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BC6A2A5D7D29006E3DD7 /* LContactGroup.m */; };
 		F778BC6E2A5D803F006E3DD7 /* LContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BC6D2A5D803F006E3DD7 /* LContactViewController.m */; };
+		F7CFB5512A5FF3EB0085DFCB /* LFlutterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CFB5502A5FF3EB0085DFCB /* LFlutterViewController.m */; };
+		F7CFB55A2A5FF62C0085DFCB /* LPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CFB5592A5FF62C0085DFCB /* LPostViewController.m */; };
 		F7F4658A2A5966BF00B11EDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F465892A5966BF00B11EDD /* AppDelegate.m */; };
 		F7F465902A5966BF00B11EDD /* LNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F4658F2A5966BF00B11EDD /* LNoteViewController.m */; };
 		F7F465932A5966BF00B11EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F465912A5966BF00B11EDD /* Main.storyboard */; };
@@ -71,6 +77,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F7256BFD2A5F85AD000CE7C6 /* LExampleListGroupItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LExampleListGroupItem.h; sourceTree = "<group>"; };
+		F7256BFE2A5F85AD000CE7C6 /* LExampleListGroupItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LExampleListGroupItem.m; sourceTree = "<group>"; };
+		F7256C002A5F85BC000CE7C6 /* LExampleListGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LExampleListGroup.h; sourceTree = "<group>"; };
+		F7256C012A5F85BC000CE7C6 /* LExampleListGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LExampleListGroup.m; sourceTree = "<group>"; };
+		F7256C042A5F8807000CE7C6 /* LRouterTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRouterTable.h; sourceTree = "<group>"; };
+		F7256C052A5F8807000CE7C6 /* LRouterTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRouterTable.m; sourceTree = "<group>"; };
+		F7256C072A5F8824000CE7C6 /* LRouterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRouterManager.h; sourceTree = "<group>"; };
+		F7256C082A5F8824000CE7C6 /* LRouterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRouterManager.m; sourceTree = "<group>"; };
 		F778BBD52A5D52CE006E3DD7 /* LFileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFileViewController.h; sourceTree = "<group>"; };
 		F778BBD62A5D52CE006E3DD7 /* LFileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFileViewController.m; sourceTree = "<group>"; };
 		F778BBD82A5D530D006E3DD7 /* LIMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIMViewController.h; sourceTree = "<group>"; };
@@ -109,6 +123,10 @@
 		F778BC6A2A5D7D29006E3DD7 /* LContactGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LContactGroup.m; sourceTree = "<group>"; };
 		F778BC6C2A5D803F006E3DD7 /* LContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LContactViewController.h; sourceTree = "<group>"; };
 		F778BC6D2A5D803F006E3DD7 /* LContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LContactViewController.m; sourceTree = "<group>"; };
+		F7CFB54F2A5FF3EB0085DFCB /* LFlutterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFlutterViewController.h; sourceTree = "<group>"; };
+		F7CFB5502A5FF3EB0085DFCB /* LFlutterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFlutterViewController.m; sourceTree = "<group>"; };
+		F7CFB5582A5FF62C0085DFCB /* LPostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPostViewController.h; sourceTree = "<group>"; };
+		F7CFB5592A5FF62C0085DFCB /* LPostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPostViewController.m; sourceTree = "<group>"; };
 		F7F465852A5966BF00B11EDD /* live_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = live_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F465882A5966BF00B11EDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7F465892A5966BF00B11EDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -158,6 +176,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7256BFC2A5EDB3C000CE7C6 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				F7256BFD2A5F85AD000CE7C6 /* LExampleListGroupItem.h */,
+				F7256BFE2A5F85AD000CE7C6 /* LExampleListGroupItem.m */,
+				F7256C002A5F85BC000CE7C6 /* LExampleListGroup.h */,
+				F7256C012A5F85BC000CE7C6 /* LExampleListGroup.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		F7256C032A5F86C6000CE7C6 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				F7256C042A5F8807000CE7C6 /* LRouterTable.h */,
+				F7256C052A5F8807000CE7C6 /* LRouterTable.m */,
+				F7256C072A5F8824000CE7C6 /* LRouterManager.h */,
+				F7256C082A5F8824000CE7C6 /* LRouterManager.m */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		F7256C0A2A5F8841000CE7C6 /* flutter */ = {
+			isa = PBXGroup;
+			children = (
+				F7CFB54F2A5FF3EB0085DFCB /* LFlutterViewController.h */,
+				F7CFB5502A5FF3EB0085DFCB /* LFlutterViewController.m */,
+			);
+			path = flutter;
+			sourceTree = "<group>";
+		};
 		F778BBCF2A5D5255006E3DD7 /* note */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +228,7 @@
 		F778BBD12A5D526C006E3DD7 /* layout */ = {
 			isa = PBXGroup;
 			children = (
+				F7CFB5572A5FF6180085DFCB /* post */,
 				F778BC652A5D7775006E3DD7 /* contact */,
 				F7F465E42A59798D00B11EDD /* LSimpleImageViewController.h */,
 				F7F465E52A59798D00B11EDD /* LSimpleImageViewController.m */,
@@ -228,6 +278,15 @@
 			path = contact;
 			sourceTree = "<group>";
 		};
+		F7CFB5572A5FF6180085DFCB /* post */ = {
+			isa = PBXGroup;
+			children = (
+				F7CFB5582A5FF62C0085DFCB /* LPostViewController.h */,
+				F7CFB5592A5FF62C0085DFCB /* LPostViewController.m */,
+			);
+			path = post;
+			sourceTree = "<group>";
+		};
 		F7F4657C2A5966BF00B11EDD = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +311,8 @@
 		F7F465872A5966BF00B11EDD /* live_ios */ = {
 			isa = PBXGroup;
 			children = (
+				F7256C032A5F86C6000CE7C6 /* router */,
+				F7256BFC2A5EDB3C000CE7C6 /* common */,
 				F7F465E72A5C318A00B11EDD /* modules */,
 				F7F465C72A59780A00B11EDD /* Resources */,
 				F7F465882A5966BF00B11EDD /* AppDelegate.h */,
@@ -341,6 +402,7 @@
 		F7F465E72A5C318A00B11EDD /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				F7256C0A2A5F8841000CE7C6 /* flutter */,
 				F778BBD42A5D52AF006E3DD7 /* file */,
 				F778BBD32A5D52A2006E3DD7 /* video */,
 				F778BBD22A5D527D006E3DD7 /* im */,
@@ -509,15 +571,21 @@
 				F778BBDD2A5D5323006E3DD7 /* LGameViewController.m in Sources */,
 				F778BBD72A5D52CE006E3DD7 /* LFileViewController.m in Sources */,
 				F778BC6B2A5D7D29006E3DD7 /* LContactGroup.m in Sources */,
+				F7256C092A5F8824000CE7C6 /* LRouterManager.m in Sources */,
 				F7F465E62A59798D00B11EDD /* LSimpleImageViewController.m in Sources */,
+				F7CFB55A2A5FF62C0085DFCB /* LPostViewController.m in Sources */,
+				F7256C062A5F8807000CE7C6 /* LRouterTable.m in Sources */,
 				F7F465902A5966BF00B11EDD /* LNoteViewController.m in Sources */,
 				F7F4658A2A5966BF00B11EDD /* AppDelegate.m in Sources */,
 				F778BC682A5D7A0F006E3DD7 /* LContact.m in Sources */,
+				F7256C022A5F85BC000CE7C6 /* LExampleListGroup.m in Sources */,
+				F7256BFF2A5F85AD000CE7C6 /* LExampleListGroupItem.m in Sources */,
 				F7F465BF2A59681000B11EDD /* LVideoPlayViewController.m in Sources */,
 				F778BBDA2A5D530D006E3DD7 /* LIMViewController.m in Sources */,
 				F7F4659B2A5966C000B11EDD /* main.m in Sources */,
 				F778BC6E2A5D803F006E3DD7 /* LContactViewController.m in Sources */,
 				F778BBE02A5D538A006E3DD7 /* LLayoutViewController.m in Sources */,
+				F7CFB5512A5FF3EB0085DFCB /* LFlutterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

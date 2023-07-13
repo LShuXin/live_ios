@@ -21,11 +21,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // 设置
+    [self initNavigationItem];
     
     // 初始化数据
     [self initData];
     
+    // 初始化表格
+    [self initTableView];
+
+}
+
+-(void)initNavigationItem {
+    self.navigationItem.title = @"通讯录";
+}
+
+-(void)initTableView {
     // 创建一个分组样式的UITableView
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
     

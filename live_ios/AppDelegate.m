@@ -13,8 +13,6 @@
 #import "LVideoPlayViewController.h"
 #import "LFileViewController.h"
 
-#import "LContactViewController.h"
-
 @interface AppDelegate ()
 
 @end
@@ -60,7 +58,7 @@
     gameVC.tabBarItem.title = @"Game";
     gameVC.tabBarItem.image = [UIImage imageNamed:@"ic_game_unselected"];
     gameVC.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_game_selected"];
-    UIViewController *layoutVC = [[LContactViewController alloc] init];
+    UIViewController *layoutVC = [[LLayoutViewController alloc] init];
     layoutVC.tabBarItem.title = @"Layout";
     layoutVC.tabBarItem.image = [UIImage imageNamed:@"ic_layout_unselected"];
     layoutVC.tabBarItem.selectedImage = [UIImage imageNamed:@"ic_layout_selected"];
@@ -113,7 +111,7 @@
 //}
 
 /**
- 图片放大或压缩处理 ，图片放大倍数 0 ~ 2 之间 ，0~1 缩小图片，1~2 放大图片  1 /**
+ 图片放大或压缩处理 ，图片放大倍数 0 ~ 2 之间 ，0~1 缩小图片，1~2 放大图片  1 **
  2  *  根据image 返回放大或缩小之后的图片
  3  *
  4  *  @param image    原始图片

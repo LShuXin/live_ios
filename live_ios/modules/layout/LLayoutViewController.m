@@ -5,10 +5,16 @@
 //  Created by smileflutter on 2023/7/11.
 //
 
+#import "LRouterTable.h"
 #import "LLayoutViewController.h"
-#import "LContactViewController.h"
+#import "LExampleListGroupItem.h"
+#import "LExampleListGroup.h"
 
-@interface LLayoutViewController ()
+@interface LLayoutViewController ()<UITableViewDataSource, UITableViewDelegate> {
+    UITableView *_tableView;
+    NSIndexPath *_selectedIndexPath;
+    NSArray *_exampleGroupList;
+}
 
 @end
 
@@ -17,7 +23,62 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor whiteColor]];
-    // Do any additional setup after loading the view.
+    [self initData];
+    
+    _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    _tableView.dataSource = self;
+    _tableView.delegate = self;
+    [self.view addSubview:_tableView];
+}
+
+- (void)initData {
+    // 构造 UITableView group
+    LExampleListGroupItem *contact = [LExampleListGroupItem initWithTitle:@"通讯录" andDetail:@"" andRouteName:@"native://contact"];
+    LExampleListGroupItem *post = [LExampleListGroupItem initWithTitle:@"微博文章" andDetail:@"" andRouteName:@"native://post"];
+    LExampleListGroup *uiTableViewGroup = [LExampleListGroup initWithName:@"UITableView" andChildren:[NSArray arrayWithObjects:contact, post, nil]];
+    _exampleGroupList = [NSArray arrayWithObjects:uiTableViewGroup, nil];
+}
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return _exampleGroupList.count;
+}
+
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    LExampleListGroup *group = _exampleGroupList[section];
+    return group.children.count;
+}
+
+-(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    LExampleListGroup *group = _exampleGroupList[indexPath.section];
+    LExampleListGroupItem *item = group.children[indexPath.row];
+    
+    static NSString *cellIdentifier = @"UITableViewCellIdentifier";
+    UITableViewCell *cell;
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellIdentifier];
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    }
+    
+    cell.textLabel.text = item.title;
+    cell.detailTextLabel.text = item.detail;
+    
+    return cell;
+}
+
+-(NSString*)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    LExampleListGroup *group = _exampleGroupList[section];
+    return group.name;
+}
+
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    LExampleListGroup *group = _exampleGroupList[indexPath.section];
+    LExampleListGroupItem *item = group.children[indexPath.row];
+    NSString *viewControllerClazzName = [[LRouterTable sharedInstance] getViewControllerClazzNameByRouteName:item.routeName];
+    Class viewControllerClass = NSClassFromString(viewControllerClazzName);
+    UIViewController *vc = [[viewControllerClass alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 /*

@@ -11,6 +11,8 @@
 		F7256C022A5F85BC000CE7C6 /* LExampleListGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F7256C012A5F85BC000CE7C6 /* LExampleListGroup.m */; };
 		F7256C062A5F8807000CE7C6 /* LRouterTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F7256C052A5F8807000CE7C6 /* LRouterTable.m */; };
 		F7256C092A5F8824000CE7C6 /* LRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7256C082A5F8824000CE7C6 /* LRouterManager.m */; };
+		F7682CE72A6154090081FB84 /* StatusInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7682CE62A6154090081FB84 /* StatusInfo.plist */; };
+		F7682CEA2A6177A20081FB84 /* mytype.png in Resources */ = {isa = PBXBuildFile; fileRef = F7682CE92A6177A20081FB84 /* mytype.png */; };
 		F778BBD72A5D52CE006E3DD7 /* LFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BBD62A5D52CE006E3DD7 /* LFileViewController.m */; };
 		F778BBDA2A5D530D006E3DD7 /* LIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BBD92A5D530D006E3DD7 /* LIMViewController.m */; };
 		F778BBDD2A5D5323006E3DD7 /* LGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BBDC2A5D5323006E3DD7 /* LGameViewController.m */; };
@@ -44,6 +46,9 @@
 		F778BC6E2A5D803F006E3DD7 /* LContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F778BC6D2A5D803F006E3DD7 /* LContactViewController.m */; };
 		F7CFB5512A5FF3EB0085DFCB /* LFlutterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CFB5502A5FF3EB0085DFCB /* LFlutterViewController.m */; };
 		F7CFB55A2A5FF62C0085DFCB /* LPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CFB5592A5FF62C0085DFCB /* LPostViewController.m */; };
+		F7CFB55C2A6010D20085DFCB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CFB55B2A6010D20085DFCB /* 1.png */; };
+		F7CFB55F2A6015100085DFCB /* LStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CFB55E2A6015100085DFCB /* LStatus.m */; };
+		F7CFB5622A6019430085DFCB /* LStatusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CFB5612A6019430085DFCB /* LStatusTableViewCell.m */; };
 		F7F4658A2A5966BF00B11EDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F465892A5966BF00B11EDD /* AppDelegate.m */; };
 		F7F465902A5966BF00B11EDD /* LNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F4658F2A5966BF00B11EDD /* LNoteViewController.m */; };
 		F7F465932A5966BF00B11EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F465912A5966BF00B11EDD /* Main.storyboard */; };
@@ -85,6 +90,9 @@
 		F7256C052A5F8807000CE7C6 /* LRouterTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRouterTable.m; sourceTree = "<group>"; };
 		F7256C072A5F8824000CE7C6 /* LRouterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRouterManager.h; sourceTree = "<group>"; };
 		F7256C082A5F8824000CE7C6 /* LRouterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRouterManager.m; sourceTree = "<group>"; };
+		F7682CE62A6154090081FB84 /* StatusInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StatusInfo.plist; sourceTree = "<group>"; };
+		F7682CE92A6177A20081FB84 /* mytype.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mytype.png; sourceTree = "<group>"; };
+		F7682CEB2A6289E50081FB84 /* LPublicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPublicDefine.h; sourceTree = "<group>"; };
 		F778BBD52A5D52CE006E3DD7 /* LFileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFileViewController.h; sourceTree = "<group>"; };
 		F778BBD62A5D52CE006E3DD7 /* LFileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFileViewController.m; sourceTree = "<group>"; };
 		F778BBD82A5D530D006E3DD7 /* LIMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIMViewController.h; sourceTree = "<group>"; };
@@ -127,6 +135,11 @@
 		F7CFB5502A5FF3EB0085DFCB /* LFlutterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFlutterViewController.m; sourceTree = "<group>"; };
 		F7CFB5582A5FF62C0085DFCB /* LPostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPostViewController.h; sourceTree = "<group>"; };
 		F7CFB5592A5FF62C0085DFCB /* LPostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPostViewController.m; sourceTree = "<group>"; };
+		F7CFB55B2A6010D20085DFCB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		F7CFB55D2A6015100085DFCB /* LStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LStatus.h; sourceTree = "<group>"; };
+		F7CFB55E2A6015100085DFCB /* LStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LStatus.m; sourceTree = "<group>"; };
+		F7CFB5602A6019430085DFCB /* LStatusTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LStatusTableViewCell.h; sourceTree = "<group>"; };
+		F7CFB5612A6019430085DFCB /* LStatusTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LStatusTableViewCell.m; sourceTree = "<group>"; };
 		F7F465852A5966BF00B11EDD /* live_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = live_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F465882A5966BF00B11EDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7F465892A5966BF00B11EDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -183,6 +196,7 @@
 				F7256BFE2A5F85AD000CE7C6 /* LExampleListGroupItem.m */,
 				F7256C002A5F85BC000CE7C6 /* LExampleListGroup.h */,
 				F7256C012A5F85BC000CE7C6 /* LExampleListGroup.m */,
+				F7682CEB2A6289E50081FB84 /* LPublicDefine.h */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -283,6 +297,10 @@
 			children = (
 				F7CFB5582A5FF62C0085DFCB /* LPostViewController.h */,
 				F7CFB5592A5FF62C0085DFCB /* LPostViewController.m */,
+				F7CFB55D2A6015100085DFCB /* LStatus.h */,
+				F7CFB55E2A6015100085DFCB /* LStatus.m */,
+				F7CFB5602A6019430085DFCB /* LStatusTableViewCell.h */,
+				F7CFB5612A6019430085DFCB /* LStatusTableViewCell.m */,
 			);
 			path = post;
 			sourceTree = "<group>";
@@ -322,6 +340,7 @@
 				F7F465962A5966C000B11EDD /* LaunchScreen.storyboard */,
 				F7F465992A5966C000B11EDD /* Info.plist */,
 				F7F4659A2A5966C000B11EDD /* main.m */,
+				F7682CE62A6154090081FB84 /* StatusInfo.plist */,
 			);
 			path = live_ios;
 			sourceTree = "<group>";
@@ -371,6 +390,8 @@
 		F7F465CB2A5978E000B11EDD /* images */ = {
 			isa = PBXGroup;
 			children = (
+				F7682CE92A6177A20081FB84 /* mytype.png */,
+				F7CFB55B2A6010D20085DFCB /* 1.png */,
 				F778BC4D2A5D6710006E3DD7 /* ic_file_selected.png */,
 				F778BC512A5D6710006E3DD7 /* ic_file_unselected.png */,
 				F778BC572A5D6710006E3DD7 /* ic_game_selected.png */,
@@ -534,13 +555,16 @@
 				F778BC122A5D620E006E3DD7 /* 7.jpg in Resources */,
 				F778BC1C2A5D620E006E3DD7 /* 12.jpg in Resources */,
 				F7F465932A5966BF00B11EDD /* Main.storyboard in Resources */,
+				F7682CE72A6154090081FB84 /* StatusInfo.plist in Resources */,
 				F778BC1A2A5D620E006E3DD7 /* 9.jpg in Resources */,
 				F778BC1B2A5D620E006E3DD7 /* 10.jpg in Resources */,
 				F778BC132A5D620E006E3DD7 /* 3.jpg in Resources */,
 				F778BC152A5D620E006E3DD7 /* 4.jpg in Resources */,
+				F7CFB55C2A6010D20085DFCB /* 1.png in Resources */,
 				F778BC622A5D6710006E3DD7 /* ic_game_unselected.png in Resources */,
 				F7F465CA2A59787600B11EDD /* test.mp4 in Resources */,
 				F778BC5D2A5D6710006E3DD7 /* ic_file_unselected.png in Resources */,
+				F7682CEA2A6177A20081FB84 /* mytype.png in Resources */,
 				F778BC592A5D6710006E3DD7 /* ic_file_selected.png in Resources */,
 				F778BC142A5D620E006E3DD7 /* 11.jpg in Resources */,
 				F778BC642A5D6710006E3DD7 /* ic_im_unselected.png in Resources */,
@@ -572,6 +596,7 @@
 				F778BBD72A5D52CE006E3DD7 /* LFileViewController.m in Sources */,
 				F778BC6B2A5D7D29006E3DD7 /* LContactGroup.m in Sources */,
 				F7256C092A5F8824000CE7C6 /* LRouterManager.m in Sources */,
+				F7CFB5622A6019430085DFCB /* LStatusTableViewCell.m in Sources */,
 				F7F465E62A59798D00B11EDD /* LSimpleImageViewController.m in Sources */,
 				F7CFB55A2A5FF62C0085DFCB /* LPostViewController.m in Sources */,
 				F7256C062A5F8807000CE7C6 /* LRouterTable.m in Sources */,
@@ -580,6 +605,7 @@
 				F778BC682A5D7A0F006E3DD7 /* LContact.m in Sources */,
 				F7256C022A5F85BC000CE7C6 /* LExampleListGroup.m in Sources */,
 				F7256BFF2A5F85AD000CE7C6 /* LExampleListGroupItem.m in Sources */,
+				F7CFB55F2A6015100085DFCB /* LStatus.m in Sources */,
 				F7F465BF2A59681000B11EDD /* LVideoPlayViewController.m in Sources */,
 				F778BBDA2A5D530D006E3DD7 /* LIMViewController.m in Sources */,
 				F7F4659B2A5966C000B11EDD /* main.m in Sources */,

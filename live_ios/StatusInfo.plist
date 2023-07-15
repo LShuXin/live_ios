@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>createdAt</key>
+		<string>8:23</string>
+		<key>mbtype</key>
+		<string>mytype.png</string>
+		<key>profileImageUrl</key>
+		<string>1.png</string>
+		<key>source</key>
+		<string>iPhone 5s</string>
+		<key>text</key>
+		<string>距离iPhone 6 发布还有不到一个月，俄罗斯奢华iPhone定制厂商曝光了一组iPhone 6前后面板照片。</string>
+		<key>userName</key>
+		<string>小冰</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>1</integer>
+		<key>createdAt</key>
+		<string>8:23</string>
+		<key>mbtype</key>
+		<string>mytype.png</string>
+		<key>profileImageUrl</key>
+		<string>1.png</string>
+		<key>source</key>
+		<string>iPhone 5s</string>
+		<key>text</key>
+		<string>距离iPhone 6 发布还有不到一个月，俄罗斯奢华iPhone定制厂商曝光了一组iPhone 6前后面板照片。</string>
+		<key>userName</key>
+		<string>小冰</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>2</integer>
+		<key>createdAt</key>
+		<string>8:23</string>
+		<key>mbtype</key>
+		<string>mytype.png</string>
+		<key>profileImageUrl</key>
+		<string>1.png</string>
+		<key>source</key>
+		<string>iPhone 5s</string>
+		<key>text</key>
+		<string>距离iPhone 6 发布还有不到一个月，俄罗斯奢华iPhone定制厂商曝光了一组iPhone 6前后面板照片。</string>
+		<key>userName</key>
+		<string>小冰</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>3</integer>
+		<key>createdAt</key>
+		<string>8:23</string>
+		<key>mbtype</key>
+		<string>mytype.png</string>
+		<key>profileImageUrl</key>
+		<string>1.png</string>
+		<key>source</key>
+		<string>iPhone 5s</string>
+		<key>text</key>
+		<string>距离iPhone 6 发布还有不到一个月，俄罗斯奢华iPhone定制厂商曝光了一组iPhone 6前后面板照片。</string>
+		<key>userName</key>
+		<string>小冰</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>4</integer>
+		<key>createdAt</key>
+		<string>8:23</string>
+		<key>mbtype</key>
+		<string>mytype.png</string>
+		<key>profileImageUrl</key>
+		<string>1.png</string>
+		<key>source</key>
+		<string>iPhone 5s</string>
+		<key>text</key>
+		<string>距离iPhone 6 发布还有不到一个月，俄罗斯奢华iPhone定制厂商曝光了一组iPhone 6前后面板照片。</string>
+		<key>userName</key>
+		<string>小冰</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>5</integer>
+		<key>createdAt</key>
+		<string>8:23</string>
+		<key>mbtype</key>
+		<string>mytype.png</string>
+		<key>profileImageUrl</key>
+		<string>1.png</string>
+		<key>source</key>
+		<string>iPhone 5s</string>
+		<key>text</key>
+		<string>距离iPhone 6 发布还有不到一个月，俄罗斯奢华iPhone定制厂商曝光了一组iPhone 6前后面板照片。</string>
+		<key>userName</key>
+		<string>小冰</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>6</integer>
+		<key>createdAt</key>
+		<string>8:23</string>
+		<key>mbtype</key>
+		<string>mytype.png</string>
+		<key>profileImageUrl</key>
+		<string>1.png</string>
+		<key>source</key>
+		<string>iPhone 5s</string>
+		<key>text</key>
+		<string>距离iPhone 6 发布还有不到一个月，俄罗斯奢华iPhone定制厂商曝光了一组iPhone 6前后面板照片。</string>
+		<key>userName</key>
+		<string>小冰</string>
+	</dict>
+</array>
+</plist>

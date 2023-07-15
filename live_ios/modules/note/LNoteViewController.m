@@ -7,7 +7,7 @@
 
 #import "LNoteViewController.h"
 #import "LVideoPlayViewController.h"
-#import "LSimpleImageViewController.h"
+#import "LUIImageViewController.h"
 
 @interface LNoteViewController ()
 @property (strong, nonatomic) UIButton *videoPalyButton;
@@ -76,7 +76,7 @@
 }
 
 -(void)goToSimpleImageVC:(UIButton *) sender {
-    LSimpleImageViewController * simpleImageVC = [[LSimpleImageViewController alloc] init];
+    LUIImageViewController * simpleImageVC = [[LUIImageViewController alloc] init];
     NSLog(@"跳转到简单图片页面");
     [self.navigationController pushViewController:simpleImageVC animated:YES];
 }

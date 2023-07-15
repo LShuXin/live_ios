@@ -32,11 +32,17 @@
 }
 
 - (void)initData {
-    // 构造 UITableView group
+    // UITableView group
     LExampleListGroupItem *contact = [LExampleListGroupItem initWithTitle:@"通讯录" andDetail:@"" andRouteName:@"native://contact"];
     LExampleListGroupItem *post = [LExampleListGroupItem initWithTitle:@"微博文章" andDetail:@"" andRouteName:@"native://post"];
     LExampleListGroup *uiTableViewGroup = [LExampleListGroup initWithName:@"UITableView" andChildren:[NSArray arrayWithObjects:contact, post, nil]];
-    _exampleGroupList = [NSArray arrayWithObjects:uiTableViewGroup, nil];
+    
+    // UIImageViewGroup
+    LExampleListGroupItem *uiImageView = [LExampleListGroupItem initWithTitle:@"UIImageView" andDetail:@"" andRouteName:@"native://uiImageView"];
+    LExampleListGroup *uiImage = [LExampleListGroup initWithName:@"UIImage" andChildren:[NSArray arrayWithObjects:uiImageView, nil]];
+    
+    
+    _exampleGroupList = [NSArray arrayWithObjects:uiTableViewGroup, uiImage, nil];
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {

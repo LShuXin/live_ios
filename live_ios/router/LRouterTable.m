@@ -52,7 +52,12 @@ static LRouterTable *sharedInstance = nil;
         // 布局相关的页面
         // 联系人
         @"native://contact": @"LContactViewController",
-        @"native://post": @"LPostViewController"
+        // 微博列表
+        @"native://post": @"LPostViewController",
+        
+        // uiimage 相关的页面
+        // uiimage 简单使用
+        @"native://uiImageView": @"LUIImageViewController"
         
     };
 }

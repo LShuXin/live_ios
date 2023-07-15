@@ -51,26 +51,27 @@
 #endif
 
  
-
-
-
 // 判断是否为iPhone
-#define BTIS_IPHONE ([[[UIDevice currentDevice] model] isEqualToString:@"iPhone"])
+#define BTIS_IPhone ([[[UIDevice currentDevice] model] isEqualToString:@"iPhone"])
+//#define BTIS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
 
 // 判断是否为iPad
-#define BTIS_IPAD ([[[UIDevice currentDevice] model] isEqualToString:@"iPad"])
+#define BTIS_IPad ([[[UIDevice currentDevice] model] isEqualToString:@"iPad"])
 
 // 判断是否为ipod
-#define BTIS_IPOD ([[[UIDevice currentDevice] model] isEqualToString:@"iPod touch"])
+#define BTIS_IPod ([[[UIDevice currentDevice] model] isEqualToString:@"iPod touch"])
 
 // 判断是否为 iPhone SE
-#define BTIS_iPhoneSE [[UIScreen mainScreen] bounds].size.width == 320.0f && [[UIScreen mainScreen] bounds].size.height == 568.0f
+#define BTIS_IPhoneSE [[UIScreen mainScreen] bounds].size.width == 320.0f && [[UIScreen mainScreen] bounds].size.height == 568.0f
 
 // 判断是否为iPhone 7
 #define BTIS_IPhone7 [[UIScreen mainScreen] bounds].size.width == 375.0f && [[UIScreen mainScreen] bounds].size.height == 667.0f
 
 // 判断是否为iPhone 7Plus
 #define BTIS_IPhone7Plus [[UIScreen mainScreen] bounds].size.width == 414.0f && [[UIScreen mainScreen] bounds].size.height == 736.0f
+
+// 判断是否为iPhoneX
+#define BTIS_IPhoneX BTSCREEN_WIDTH >= 375.0f && BTSCREEN_HEIGHT >= 812.0f && BTIS_IPhone
 
 // 获取系统版本
 #define BTSystemVersion [[UIDevice currentDevice] systemVersion]

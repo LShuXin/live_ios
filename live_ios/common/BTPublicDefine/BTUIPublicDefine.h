@@ -7,6 +7,7 @@
 
 #ifndef BTUIPublicDefine_h
 #define BTUIPublicDefine_h
+#import "BTPlatformPublicDefine.h"
 
 
 // 屏幕宽高
@@ -14,9 +15,50 @@
 #define BTSCREEN_HEIGHT                   ([UIScreen mainScreen].bounds.size.height)
 
 
-// 快速weak
-#define BTWEAKOBJ(weakObj)  __weak __typeof(&*weakObj)weak_##weakObj = weakObj;
-#define BTWEAKSELF(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+// 状态栏
+#define BTSTATUSBAR_HEIGHT \
+^(){\
+if (@available(iOS 13.0, *)) {\
+    UIStatusBarManager *statusBarManager = [UIApplication sharedApplication].windows.firstObject.windowScene.statusBarManager;\
+    return statusBarManager.statusBarFrame.size.height;\
+} else {\
+    return [UIApplication sharedApplication].statusBarFrame.size.height;\
+}\
+}()
+
+
+// 导航栏高度
+#define BTNAVBAR_HEIGHT (44)
+
+// 状态栏和导航栏总高度
+#define BTNAVBAR_AND_STATUSBAR_HEIGHT (CGFloat)(BTIS_IPhoneX ? (88.0) : (64.0))
+
+// TabBar高度
+#define BTTABBAR_HEIGHT (CGFloat)(BTIS_IPhoneX ? (49.0 + 34.0) : (49.0))
+
+// 顶部安全区域远离高度
+#define BTTOPSAFE_HEIGHT (CGFloat)(BTIS_IPhoneX ? (44.0) : (0))
+
+// 底部安全区域远离高度
+#define BTBOTTOMSAFE_HEIGHT (CGFloat)(BTIS_IPhoneX ? (34.0) : (0))
+
+// iPhoneX的状态栏高度差值
+#define BTTOPBARDIF_HEIGHT (CGFloat)(BTIS_IPhoneX ? (24.0) : (0))
+
+// 导航条和Tabbar总高度
+#define BTNAVBAR_AND_TABBAR_HEIGHT (BTNAVBAR_AND_STATUSBAR_HEIGHT + BTTABBAR_HEIGHT)
+
+
+// 底部指示条高度
+#define BTINDICATOR_HEIGHT \
+^(){\
+if (@available(iOS 11.0, *)) {\
+    UIEdgeInsets safeAreaInsets = [[UIApplication sharedApplication] delegate].window.safeAreaInsets;\
+    return safeAreaInsets.bottom;\
+} else {\
+    return UIEdgeInsetsMake(0, 0, 0, 0).bottom;\
+}\
+}()
 
 
 // 颜色：16进制颜色 + 透明度
@@ -78,6 +120,26 @@
 // 获取图片资源
 #define BTGetImage(imageName) [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
 
+
+// 常用Padding
+#define BTPADDING8 8
+#define BTPADDING10 10
+#define BTPADDING12 12
+#define BTPADDING16 16
+#define BTPADDING18 18
+#define BTPADDING20 20
+#define BTPADDING22 22
+#define BTPADDING24 24
+
+// 常用Margin
+#define BTMARGIN8 8
+#define BTMARGIN10 10
+#define BTMARGIN12 12
+#define BTMARGIN16 16
+#define BTMARGIN18 18
+#define BTMARGIN20 20
+#define BTMARGIN22 22
+#define BTMARGIN24 24
 
 
 #endif /* LUIPublicDefine_h */

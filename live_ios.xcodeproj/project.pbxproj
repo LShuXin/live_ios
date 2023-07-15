@@ -61,7 +61,7 @@
 		F7F465BF2A59681000B11EDD /* LVideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F465BE2A59681000B11EDD /* LVideoPlayViewController.m */; };
 		F7F465C22A596FC000B11EDD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F465C12A596FC000B11EDD /* AVFoundation.framework */; };
 		F7F465CA2A59787600B11EDD /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F7F465C92A59787600B11EDD /* test.mp4 */; };
-		F7F465E62A59798D00B11EDD /* LSimpleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F465E52A59798D00B11EDD /* LSimpleImageViewController.m */; };
+		F7F465E62A59798D00B11EDD /* LUIImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F465E52A59798D00B11EDD /* LUIImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,8 +167,8 @@
 		F7F465BE2A59681000B11EDD /* LVideoPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVideoPlayViewController.m; sourceTree = "<group>"; };
 		F7F465C12A596FC000B11EDD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F7F465C92A59787600B11EDD /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
-		F7F465E42A59798D00B11EDD /* LSimpleImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSimpleImageViewController.h; sourceTree = "<group>"; };
-		F7F465E52A59798D00B11EDD /* LSimpleImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSimpleImageViewController.m; sourceTree = "<group>"; };
+		F7F465E42A59798D00B11EDD /* LUIImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUIImageViewController.h; sourceTree = "<group>"; };
+		F7F465E52A59798D00B11EDD /* LUIImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUIImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +245,24 @@
 			path = BTPublicDefine;
 			sourceTree = "<group>";
 		};
+		F7682CF52A629D0D0081FB84 /* uitableview */ = {
+			isa = PBXGroup;
+			children = (
+				F778BC652A5D7775006E3DD7 /* contact */,
+				F7CFB5572A5FF6180085DFCB /* post */,
+			);
+			path = uitableview;
+			sourceTree = "<group>";
+		};
+		F7682CF62A629D310081FB84 /* uiimage */ = {
+			isa = PBXGroup;
+			children = (
+				F7F465E52A59798D00B11EDD /* LUIImageViewController.m */,
+				F7F465E42A59798D00B11EDD /* LUIImageViewController.h */,
+			);
+			path = uiimage;
+			sourceTree = "<group>";
+		};
 		F778BBCF2A5D5255006E3DD7 /* note */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,10 +284,8 @@
 		F778BBD12A5D526C006E3DD7 /* layout */ = {
 			isa = PBXGroup;
 			children = (
-				F7CFB5572A5FF6180085DFCB /* post */,
-				F778BC652A5D7775006E3DD7 /* contact */,
-				F7F465E42A59798D00B11EDD /* LSimpleImageViewController.h */,
-				F7F465E52A59798D00B11EDD /* LSimpleImageViewController.m */,
+				F7682CF62A629D310081FB84 /* uiimage */,
+				F7682CF52A629D0D0081FB84 /* uitableview */,
 				F778BBDE2A5D538A006E3DD7 /* LLayoutViewController.h */,
 				F778BBDF2A5D538A006E3DD7 /* LLayoutViewController.m */,
 			);
@@ -621,7 +637,7 @@
 				F778BC6B2A5D7D29006E3DD7 /* LContactGroup.m in Sources */,
 				F7256C092A5F8824000CE7C6 /* LRouterManager.m in Sources */,
 				F7CFB5622A6019430085DFCB /* LStatusTableViewCell.m in Sources */,
-				F7F465E62A59798D00B11EDD /* LSimpleImageViewController.m in Sources */,
+				F7F465E62A59798D00B11EDD /* LUIImageViewController.m in Sources */,
 				F7CFB55A2A5FF62C0085DFCB /* LPostViewController.m in Sources */,
 				F7256C062A5F8807000CE7C6 /* LRouterTable.m in Sources */,
 				F7F465902A5966BF00B11EDD /* LNoteViewController.m in Sources */,

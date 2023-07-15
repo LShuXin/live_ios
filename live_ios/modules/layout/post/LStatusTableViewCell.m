@@ -7,13 +7,12 @@
 
 #import "LStatusTableViewCell.h"
 #import "LStatus.h"
-#import "LPublicDefine.h"
+#import "BTPublicDefine.h"
 
-#define kLColor(r, g, b) [UIColor colorWithHue:r/255.0 saturation:g/255.0 brightness:b/255.0 alpha:1] // 颜色宏定义
 #define kLStatusTableViewCellControlSpacing 10 // 控件间距
-#define kLStatusTableViewCellBackgroundColor kLColor(251, 251, 251)
-#define kLStatusGrayColor kLColor(50, 50, 50)
-#define kLStatusLightGrayColor kLColor(120, 120, 120)
+#define kLStatusTableViewCellBackgroundColor BTUIColorFromR_G_B(251, 251, 251)
+#define kLStatusGrayColor BTUIColorFromR_G_B(50, 50, 50)
+#define kLStatusLightGrayColor BTUIColorFromR_G_B(120, 120, 120)
 
 #define kLStatusTableViewCellAvatarWidth 40 // 头像宽度
 #define kLStatusTableViewCellAvatarHeight kLStatusTableViewCellAvatarWidth
@@ -133,7 +132,7 @@
     // 设置微博内容大小和位置
     CGFloat textX = avatarX;
     CGFloat textY = CGRectGetMaxY(_avatar.frame) + kLStatusTableViewCellControlSpacing;
-    CGFloat textWidth = SCREEN_WIDTH - kLStatusTableViewCellControlSpacing * 2;
+    CGFloat textWidth = BTSCREEN_WIDTH - kLStatusTableViewCellControlSpacing * 2;
     CGSize textSize = [status.text boundingRectWithSize:CGSizeMake(textWidth, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName: [UIFont systemFontOfSize:kLStatusTableViewCellTextFontSize]} context:nil].size;
     CGRect textRect = CGRectMake(textX, textY, textSize.width, textSize.height);
     _text.text = status.text;

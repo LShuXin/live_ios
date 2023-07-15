@@ -92,7 +92,15 @@
 		F7256C082A5F8824000CE7C6 /* LRouterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRouterManager.m; sourceTree = "<group>"; };
 		F7682CE62A6154090081FB84 /* StatusInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StatusInfo.plist; sourceTree = "<group>"; };
 		F7682CE92A6177A20081FB84 /* mytype.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mytype.png; sourceTree = "<group>"; };
-		F7682CEB2A6289E50081FB84 /* LPublicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPublicDefine.h; sourceTree = "<group>"; };
+		F7682CEB2A6289E50081FB84 /* BTPublicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTPublicDefine.h; sourceTree = "<group>"; };
+		F7682CEC2A628F050081FB84 /* BTPlatformPublicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTPlatformPublicDefine.h; sourceTree = "<group>"; };
+		F7682CED2A628F200081FB84 /* BTUIPublicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTUIPublicDefine.h; sourceTree = "<group>"; };
+		F7682CEE2A628F4A0081FB84 /* BTFilePublicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTFilePublicDefine.h; sourceTree = "<group>"; };
+		F7682CF02A6292CD0081FB84 /* BTLanguagePublicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTLanguagePublicDefine.h; sourceTree = "<group>"; };
+		F7682CF12A62935E0081FB84 /* BTStringDataTypePublicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTStringDataTypePublicDefine.h; sourceTree = "<group>"; };
+		F7682CF22A62959A0081FB84 /* BTThreadPublicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTThreadPublicDefine.h; sourceTree = "<group>"; };
+		F7682CF32A6295F20081FB84 /* BTLogPublicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTLogPublicDefine.h; sourceTree = "<group>"; };
+		F7682CF42A6296BA0081FB84 /* BTMiscPublicDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTMiscPublicDefine.h; sourceTree = "<group>"; };
 		F778BBD52A5D52CE006E3DD7 /* LFileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFileViewController.h; sourceTree = "<group>"; };
 		F778BBD62A5D52CE006E3DD7 /* LFileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFileViewController.m; sourceTree = "<group>"; };
 		F778BBD82A5D530D006E3DD7 /* LIMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIMViewController.h; sourceTree = "<group>"; };
@@ -192,11 +200,11 @@
 		F7256BFC2A5EDB3C000CE7C6 /* common */ = {
 			isa = PBXGroup;
 			children = (
+				F7682CEF2A628F630081FB84 /* BTPublicDefine */,
 				F7256BFD2A5F85AD000CE7C6 /* LExampleListGroupItem.h */,
 				F7256BFE2A5F85AD000CE7C6 /* LExampleListGroupItem.m */,
 				F7256C002A5F85BC000CE7C6 /* LExampleListGroup.h */,
 				F7256C012A5F85BC000CE7C6 /* LExampleListGroup.m */,
-				F7682CEB2A6289E50081FB84 /* LPublicDefine.h */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -219,6 +227,22 @@
 				F7CFB5502A5FF3EB0085DFCB /* LFlutterViewController.m */,
 			);
 			path = flutter;
+			sourceTree = "<group>";
+		};
+		F7682CEF2A628F630081FB84 /* BTPublicDefine */ = {
+			isa = PBXGroup;
+			children = (
+				F7682CED2A628F200081FB84 /* BTUIPublicDefine.h */,
+				F7682CEC2A628F050081FB84 /* BTPlatformPublicDefine.h */,
+				F7682CEE2A628F4A0081FB84 /* BTFilePublicDefine.h */,
+				F7682CEB2A6289E50081FB84 /* BTPublicDefine.h */,
+				F7682CF02A6292CD0081FB84 /* BTLanguagePublicDefine.h */,
+				F7682CF12A62935E0081FB84 /* BTStringDataTypePublicDefine.h */,
+				F7682CF22A62959A0081FB84 /* BTThreadPublicDefine.h */,
+				F7682CF32A6295F20081FB84 /* BTLogPublicDefine.h */,
+				F7682CF42A6296BA0081FB84 /* BTMiscPublicDefine.h */,
+			);
+			path = BTPublicDefine;
 			sourceTree = "<group>";
 		};
 		F778BBCF2A5D5255006E3DD7 /* note */ = {

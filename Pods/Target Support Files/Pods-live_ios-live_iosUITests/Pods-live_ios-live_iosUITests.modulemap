@@ -1,0 +1,6 @@
+framework module Pods_live_ios_live_iosUITests {
+  umbrella header "Pods-live_ios-live_iosUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

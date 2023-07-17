@@ -39,8 +39,8 @@
     
     // UIImageViewGroup
     LExampleListGroupItem *uiImageView = [LExampleListGroupItem initWithTitle:@"UIImageView" andDetail:@"" andRouteName:@"native://uiImageView"];
-    LExampleListGroup *uiImage = [LExampleListGroup initWithName:@"UIImage" andChildren:[NSArray arrayWithObjects:uiImageView, nil]];
-    
+    LExampleListGroupItem *sdWebImage = [LExampleListGroupItem initWithTitle:@"SDWebImage" andDetail:@"SDWebImage 基本使用例子" andRouteName:@"native://sdwebimage"];
+    LExampleListGroup *uiImage = [LExampleListGroup initWithName:@"UIImage" andChildren:[NSArray arrayWithObjects:uiImageView, sdWebImage, nil]];
     
     _exampleGroupList = [NSArray arrayWithObjects:uiTableViewGroup, uiImage, nil];
 }

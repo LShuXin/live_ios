@@ -57,7 +57,8 @@ static LRouterTable *sharedInstance = nil;
         
         // uiimage 相关的页面
         // uiimage 简单使用
-        @"native://uiImageView": @"LUIImageViewController"
+        @"native://uiImageView": @"LUIImageViewController",
+        @"native://sdwebimage": @"LSDWebImageViewController",
         
     };
 }

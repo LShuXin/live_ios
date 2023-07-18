@@ -38,8 +38,8 @@
     LExampleListGroup *uiTableViewGroup = [LExampleListGroup initWithName:@"UITableView" andChildren:[NSArray arrayWithObjects:contact, post, nil]];
     
     // UIImageViewGroup
-    LExampleListGroupItem *uiImageView = [LExampleListGroupItem initWithTitle:@"UIImageView" andDetail:@"" andRouteName:@"native://uiImageView"];
-    LExampleListGroupItem *sdWebImage = [LExampleListGroupItem initWithTitle:@"SDWebImage" andDetail:@"SDWebImage 基本使用例子" andRouteName:@"native://sdwebimage"];
+    LExampleListGroupItem *uiImageView = [LExampleListGroupItem initWithTitle:@"UIImageView" andDetail:@"" andRouteName:@"native://uiImage"];
+    LExampleListGroupItem *sdWebImage = [LExampleListGroupItem initWithTitle:@"SDWebImage" andDetail:@"SDWebImage 基本使用例子" andRouteName:@"native://sdWebImage"];
     LExampleListGroup *uiImage = [LExampleListGroup initWithName:@"UIImage" andChildren:[NSArray arrayWithObjects:uiImageView, sdWebImage, nil]];
     
     _exampleGroupList = [NSArray arrayWithObjects:uiTableViewGroup, uiImage, nil];

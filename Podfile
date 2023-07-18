@@ -2,7 +2,7 @@ source 'https://gitee.com/mirrors/CocoaPods-Specs.git'
 source 'https://github.com/aliyun/aliyun-specs.git'
 #source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '10.0'
+platform :ios, '13.0'
 
 target 'live_ios' do
   # Comment the next line if you don't want to use dynamic frameworks

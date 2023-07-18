@@ -88,14 +88,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		40B4F90237C58D12F8A062C1 /* Pods-live_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-live_ios.debug.xcconfig"; path = "Target Support Files/Pods-live_ios/Pods-live_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		333BEC459C9765208F013069 /* Pods-live_ios-live_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-live_ios-live_iosUITests.release.xcconfig"; path = "Target Support Files/Pods-live_ios-live_iosUITests/Pods-live_ios-live_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		43B72578AA2D79449FC5EBC7 /* Pods_live_ios_live_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_live_ios_live_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85B5F1D833EC706D3C423E83 /* Pods-live_ios-live_iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-live_ios-live_iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-live_ios-live_iosUITests/Pods-live_ios-live_iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		898149406584DE68C5EE5C38 /* Pods-live_iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-live_iosTests.release.xcconfig"; path = "Target Support Files/Pods-live_iosTests/Pods-live_iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		55C17B325C9EE7D93B7DFC22 /* Pods-live_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-live_ios.debug.xcconfig"; path = "Target Support Files/Pods-live_ios/Pods-live_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		6268D7D1A8A12F7B5E873757 /* Pods-live_iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-live_iosTests.release.xcconfig"; path = "Target Support Files/Pods-live_iosTests/Pods-live_iosTests.release.xcconfig"; sourceTree = "<group>"; };
 		978A350FD18AEA54D2D00192 /* Pods_live_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_live_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B856E0A4404EF6EF8BCA823E /* Pods-live_iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-live_iosTests.debug.xcconfig"; path = "Target Support Files/Pods-live_iosTests/Pods-live_iosTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CE3B731C9FF0CABA8A4AB184 /* Pods-live_ios-live_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-live_ios-live_iosUITests.release.xcconfig"; path = "Target Support Files/Pods-live_ios-live_iosUITests/Pods-live_ios-live_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D37161A719F7482F9BB689F1 /* Pods-live_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-live_ios.release.xcconfig"; path = "Target Support Files/Pods-live_ios/Pods-live_ios.release.xcconfig"; sourceTree = "<group>"; };
+		C4DCB966DF2546CEC7B9A3A9 /* Pods-live_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-live_ios.release.xcconfig"; path = "Target Support Files/Pods-live_ios/Pods-live_ios.release.xcconfig"; sourceTree = "<group>"; };
+		DE0C36794B972BE63110EF24 /* Pods-live_ios-live_iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-live_ios-live_iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-live_ios-live_iosUITests/Pods-live_ios-live_iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB343BA3FC1E4508F49FAC60 /* Pods-live_iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-live_iosTests.debug.xcconfig"; path = "Target Support Files/Pods-live_iosTests/Pods-live_iosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDCA15E8400AACD99DA2996C /* Pods_live_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_live_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7256BFD2A5F85AD000CE7C6 /* LExampleListGroupItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LExampleListGroupItem.h; sourceTree = "<group>"; };
 		F7256BFE2A5F85AD000CE7C6 /* LExampleListGroupItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LExampleListGroupItem.m; sourceTree = "<group>"; };
@@ -219,16 +219,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AB5FF17E048690DEE31858E /* Pods */ = {
+		A384FD8473583E34BA7D477B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				40B4F90237C58D12F8A062C1 /* Pods-live_ios.debug.xcconfig */,
-				D37161A719F7482F9BB689F1 /* Pods-live_ios.release.xcconfig */,
-				85B5F1D833EC706D3C423E83 /* Pods-live_ios-live_iosUITests.debug.xcconfig */,
-				CE3B731C9FF0CABA8A4AB184 /* Pods-live_ios-live_iosUITests.release.xcconfig */,
-				B856E0A4404EF6EF8BCA823E /* Pods-live_iosTests.debug.xcconfig */,
-				898149406584DE68C5EE5C38 /* Pods-live_iosTests.release.xcconfig */,
+				55C17B325C9EE7D93B7DFC22 /* Pods-live_ios.debug.xcconfig */,
+				C4DCB966DF2546CEC7B9A3A9 /* Pods-live_ios.release.xcconfig */,
+				DE0C36794B972BE63110EF24 /* Pods-live_ios-live_iosUITests.debug.xcconfig */,
+				333BEC459C9765208F013069 /* Pods-live_ios-live_iosUITests.release.xcconfig */,
+				EB343BA3FC1E4508F49FAC60 /* Pods-live_iosTests.debug.xcconfig */,
+				6268D7D1A8A12F7B5E873757 /* Pods-live_iosTests.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -406,7 +407,7 @@
 				F7F465AD2A5966C000B11EDD /* live_iosUITests */,
 				F7F465862A5966BF00B11EDD /* Products */,
 				F7F465C02A596FC000B11EDD /* Frameworks */,
-				0AB5FF17E048690DEE31858E /* Pods */,
+				A384FD8473583E34BA7D477B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -989,7 +990,7 @@
 		};
 		F7F465B52A5966C000B11EDD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40B4F90237C58D12F8A062C1 /* Pods-live_ios.debug.xcconfig */;
+			baseConfigurationReference = 55C17B325C9EE7D93B7DFC22 /* Pods-live_ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1003,6 +1004,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1017,7 +1019,7 @@
 		};
 		F7F465B62A5966C000B11EDD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D37161A719F7482F9BB689F1 /* Pods-live_ios.release.xcconfig */;
+			baseConfigurationReference = C4DCB966DF2546CEC7B9A3A9 /* Pods-live_ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1031,6 +1033,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1045,7 +1048,7 @@
 		};
 		F7F465B82A5966C000B11EDD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B856E0A4404EF6EF8BCA823E /* Pods-live_iosTests.debug.xcconfig */;
+			baseConfigurationReference = EB343BA3FC1E4508F49FAC60 /* Pods-live_iosTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1064,7 +1067,7 @@
 		};
 		F7F465B92A5966C000B11EDD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 898149406584DE68C5EE5C38 /* Pods-live_iosTests.release.xcconfig */;
+			baseConfigurationReference = 6268D7D1A8A12F7B5E873757 /* Pods-live_iosTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1083,7 +1086,7 @@
 		};
 		F7F465BB2A5966C000B11EDD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85B5F1D833EC706D3C423E83 /* Pods-live_ios-live_iosUITests.debug.xcconfig */;
+			baseConfigurationReference = DE0C36794B972BE63110EF24 /* Pods-live_ios-live_iosUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1100,7 +1103,7 @@
 		};
 		F7F465BC2A5966C000B11EDD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE3B731C9FF0CABA8A4AB184 /* Pods-live_ios-live_iosUITests.release.xcconfig */;
+			baseConfigurationReference = 333BEC459C9765208F013069 /* Pods-live_ios-live_iosUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
